@@ -2,6 +2,10 @@
 
 A responsive and interactive **Gallery Website** designed to showcase beautiful images in an attractive card-based layout. The project includes **search, category filtering functionalities** to provide a better user experience.
 
+## Live Demo
+
+View Live Website: (https://image-gallery-page-ruby.vercel.app/)
+
 ## 🌟 Features
 
 * 🏠 **Home & Gallery Navigation**
