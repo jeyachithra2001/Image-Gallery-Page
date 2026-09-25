@@ -15,7 +15,11 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
   color: black;
+  position: sticky;
+  top: 0%;
+  z-index: 10;
 }
 .nav__section__left{
   display: flex;
@@ -176,6 +180,38 @@ body{
 }
 .active i{
   color: red;
+}
+
+/* FOOTER SECTION */
+.footer{
+  background-color: #4b08b7;
+  color: white;
+  padding: 20px;
+}
+.footer__top{  
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(219, 206, 206);
+}
+.footer ul{
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.footer ul a{
+  text-decoration: none;
+  color: white;
+}
+.footer__top__right div{
+  display: flex;
+  gap: 20px;
+}
+.footer__top__right h3{
+  margin-bottom: 5px;
+}
+.footer__bottom{
+  margin-top: 20px;
+  text-align: center;
 }
 
 
