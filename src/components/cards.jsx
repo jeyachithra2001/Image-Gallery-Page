@@ -2,7 +2,7 @@ import "../index.css"
 import cardData from "../data/cardData"
 import { useEffect } from "react"
 
-function Cards() {
+function Cards({cardData}) {
     useEffect(() => {
         let search = document.querySelector(".search")
         search.addEventListener("keyup", function (event) {

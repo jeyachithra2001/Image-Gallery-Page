@@ -3,6 +3,7 @@ import Category from "./components/categories"
 import Footer from "./components/Footer"
 import HeroSection from "./components/hero"
 import Navbar from "./components/Navbar"
+import cardData from "./data/cardData"
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <Category/>
-      <Cards/>
+      <Cards cardData = {cardData}/>
       <Footer/>
     </>
   )
